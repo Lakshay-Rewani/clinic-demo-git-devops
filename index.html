@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Health Clinic - Modern Healthcare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>City Health Clinic</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#doctor">About Doctor</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#appointment" class="btn-primary">Book Now</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-animation"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"><i class="fas fa-heart"></i></div>
+            <div class="shape shape-2"><i class="fas fa-stethoscope"></i></div>
+            <div class="shape shape-3"><i class="fas fa-pills"></i></div>
+            <div class="shape shape-4"><i class="fas fa-user-md"></i></div>
+            <div class="shape shape-5"><i class="fas fa-plus"></i></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Modern Healthcare</span>
+                    <br>for Your Family
+                </h1>
+                <p class="hero-subtitle">Experience world-class medical care with cutting-edge technology and compassionate experts.</p>
+                <div class="hero-buttons">
+                    <a href="#appointment" class="btn-primary btn-lg">
+                        <i class="fas fa-calendar-check"></i> Book Appointment
+                    </a>
+                    <a href="tel:+919876543210" class="btn-secondary btn-lg">
+                        <i class="fas fa-phone"></i> Call Clinic
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <h3>15K+</h3>
+                            <p>Happy Patients</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-award"></i>
+                        <div>
+                            <h3>15+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-smile"></i>
+                        <div>
+                            <h3>98%</h3>
+                            <p>Satisfaction Rate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="doctor-3d-container">
+                    <div class="doctor-avatar">
+                        <div class="avatar-glow"></div>
+                        <img src="doctor.jpg" alt="Dr. Amit Sharma" class="doctor-img">
+                        <div class="floating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>Top Rated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- Doctor Section -->
+    <section id="doctor" class="doctor-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Meet Our Expert</span>
+                <h2 class="section-title">Leading Healthcare Professional</h2>
+            </div>
+            
+            <div class="doctor-card">
+                <div class="doctor-image-wrapper">
+                    <div class="image-glow"></div>
+                    <img src="doctor.jpg" alt="Dr. Amit Sharma" class="doctor-photo">
+                    <div class="experience-badge">
+                        <span>10+</span>
+                        <span>Years Exp.</span>
+                    </div>
+                </div>
+                
+                <div class="doctor-info">
+                    <h3 class="doctor-name">Dr. Amit Sharma</h3>
+                    <p class="doctor-title">Chief Medical Officer</p>
+                    <div class="qualifications">
+                        <span class="qual-tag">MBBS</span>
+                        <span class="qual-tag">MD</span>
+                        <span class="qual-tag">Specialist</span>
+                    </div>
+                    <p class="doctor-description">
+                        With over a decade of experience in modern medicine, Dr. Sharma combines traditional medical wisdom 
+                        with cutting-edge treatments to provide comprehensive care for patients of all ages.
+                    </p>
+                    
+                    <div class="specialties">
+                        <div class="specialty-item">
+                            <i class="fas fa-heartbeat"></i>
+                            <span>Cardiology</span>
+                        </div>
+                        <div class="specialty-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Neurology</span>
+                        </div>
+                        <div class="specialty-item">
+                            <i class="fas fa-bone"></i>
+                            <span>Orthopedics</span>
+                        </div>
+                        <div class="specialty-item">
+                            <i class="fas fa-lungs"></i>
+                            <span>Pulmonology</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">What We Offer</span>
+                <h2 class="section-title">Our Premium Services</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>General Checkup</h3>
+                    <p>Comprehensive health examinations with advanced diagnostic tools and personalized treatment plans.</p>
+                    <a href="#appointment" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3>Dental Care</h3>
+                    <p>Complete dental services from routine cleanings to cosmetic dentistry and oral surgery.</p>
+                    <a href="#appointment" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Skin Treatment</h3>
+                    <p>Advanced dermatological solutions for healthy, glowing skin with latest technologies.</p>
+                    <a href="#appointment" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>Child Care</h3>
+                    <p>Specialized pediatric care ensuring your children receive the best medical attention.</p>
+                    <a href="#appointment" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Blood Test</h3>
+                    <p>Accurate laboratory testing with quick results for comprehensive health analysis.</p>
+                    <a href="#appointment" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-x-ray"></i>
+                    </div>
+                    <h3>Radiology</h3>
+                    <p>State-of-the-art imaging services including X-ray, ultrasound, and advanced scans.</p>
+                    <a href="#appointment" class="service-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment-section">
+        <div class="container">
+            <div class="appointment-wrapper">
+                <div class="appointment-content">
+                    <span class="section-subtitle">Easy Booking Process</span>
+                    <h2 class="section-title">Book Your Appointment</h2>
+                    <p>Fill out the form and our team will get back to you within 24 hours to confirm your appointment.</p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Same-day appointments available</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Minimal waiting time</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert consultation</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Affordable pricing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="appointment-form-container">
+                    <form class="appointment-form" action="https://formspree.io/f/yourid" method="POST">
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-phone"></i>
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" name="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-calendar"></i>
+                                <input type="date" name="date" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-notes-medical"></i>
+                                <select name="service" required>
+                                    <option value="" disabled selected>Select Service</option>
+                                    <option value="checkup">General Checkup</option>
+                                    <option value="dental">Dental Care</option>
+                                    <option value="skin">Skin Treatment</option>
+                                    <option value="child">Child Care</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-comment-alt"></i>
+                                <textarea name="message" placeholder="Describe your health problem..." rows="4" required></textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Submit Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Patient Reviews</span>
+                <h2 class="section-title">What Our Patients Say</h2>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Exceptional care and professional service. The doctor took time to understand my concerns and provided excellent treatment."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Rajesh Kumar</h4>
+                                <p>Regular Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The clinic is spotless and the staff is incredibly friendly. Best healthcare experience I've had in years."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Priya Sharma</h4>
+                                <p>Mother of Two</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Quick diagnosis and effective treatment. The online booking system makes scheduling so convenient."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Amit Patel</h4>
+                                <p>Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Dr. Sharma is amazing! Very knowledgeable and caring. Highly recommend this clinic to everyone."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sneha Verma</h4>
+                                <p>Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Facility</span>
+                <h2 class="section-title">Clinic Gallery</h2>
+            </div>
+            
+            <div class="gallery-carousel">
+                <div class="gallery-track">
+                    <div class="gallery-item">
+                        <div class="gallery-image-placeholder">
+                            <i class="fas fa-clinic-medical"></i>
+                        </div>
+                        <p>Reception Area</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image-placeholder">
+                            <i class="fas fa-procedures"></i>
+                        </div>
+                        <p>Examination Room</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image-placeholder">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <p>Laboratory</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image-placeholder">
+                            <i class="fas fa-waiting-room"></i>
+                        </div>
+                        <p>Waiting Lounge</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-image-placeholder">
+                            <i class="fas fa-x-ray"></i>
+                        </div>
+                        <p>Imaging Center</p>
+                    </div>
+                </div>
+                
+                <button class="gallery-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="gallery-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact & Location</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Clinic Address</h4>
+                            <p>123 Main Road, Jaipur, Rajasthan 302001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <p>+91 9876543210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <p>info@cityhealthclinic.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+                            <p>Sunday: 10:00 AM - 2:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="emergency-box">
+                        <i class="fas fa-ambulance"></i>
+                        <div>
+                            <h4>24/7 Emergency</h4>
+                            <p>Call us anytime: +91 9876543210</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=jaipur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>City Health Clinic</span>
+                    </div>
+                    <p>Providing quality healthcare services with compassion and excellence since 2010.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#doctor">About Doctor</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#appointment">Book Appointment</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>General Checkup</li>
+                        <li>Dental Care</li>
+                        <li>Skin Treatment</li>
+                        <li>Child Care</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for health tips and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 City Health Clinic. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

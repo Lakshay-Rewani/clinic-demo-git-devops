@@ -1,0 +1,26 @@
+# Clinic Demo Website
+
+A static clinic website developed using HTML, CSS, and JavaScript.
+
+This project is being used to demonstrate Git and GitHub version-control best practices as part of DevOps Internship Task 4.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+
+## Project Structure
+
+```text
+clinic-demo-site/
+├── doctor.jpg
+├── index.html
+├── script.js
+├── style.css
+├── .gitignore
+├── README.md
+└── docs/
+    └── git-workflow.md

@@ -1,0 +1,22 @@
+@"
+# VS Code
+.vscode/
+
+# Coder / cloud IDE
+.coder/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+"@ | Out-File -Encoding utf8 .gitignore
