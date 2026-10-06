@@ -24,3 +24,10 @@ clinic-demo-site/
 ├── README.md
 └── docs/
     └── git-workflow.md
+
+    
+    ## Development Status
+
+The project is maintained using a Git-based development workflow with separate development and feature branches.
+
+Changes are reviewed through Pull Requests before being merged into the stable branch.
